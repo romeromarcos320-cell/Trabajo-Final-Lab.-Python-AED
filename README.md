@@ -63,7 +63,7 @@ python main.py
 - Distinción entre "usuario no encontrado" y "cuenta bloqueada", con
   mensajes específicos para cada caso
 
-### Consulta de saldo `Modulo datos.py`
+### Consulta de saldo `datos.py`
 - Muestra el saldo actual de la cuenta del usuario autenticado
 
 ### Extracción `operaciones.py`
