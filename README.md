@@ -56,34 +56,34 @@ python main.py
 
 ## Funciones implementadas
 
-### Autenticación (Modulo autenticacion.py)
+### Autenticación `autenticacion.py`
 - Validación de usuario y contraseña antes de permitir el acceso al sistema
 - Hasta 3 intentos de inicio de sesión
 - Bloqueo automático de la cuenta al superar el límite de intentos fallidos
 - Distinción entre "usuario no encontrado" y "cuenta bloqueada", con
   mensajes específicos para cada caso
 
-### Consulta de saldo (Modulo datos.py)
+### Consulta de saldo `Modulo datos.py`
 - Muestra el saldo actual de la cuenta del usuario autenticado
 
-### Extracción (Modulo Operaciones.py)
+### Extracción `operaciones.py`
 - Permite retirar dinero, descontándolo del saldo de la cuenta
 - Controla que el monto solicitado no supere el saldo disponible
 - Aplica un límite máximo de extracción por operación ($10.000)
 
-### Depósito (Modulo Operaciones.py)
+### Depósito `operaciones.py`
 - Permite ingresar dinero a la cuenta, sumándolo al saldo actual
 
-### Transferencia (Modulo Operaciones.py)
+### Transferencia `operaciones.py`
 - Permite transferir dinero de la cuenta propia a otra cuenta del sistema
 - Valida que la cuenta destino exista
 - Valida que haya saldo suficiente antes de transferir
 
-### Registro de operaciones (Modulo historial.py)
+### Registro de operaciones `historial.py`
 - Registra cada operación realizada (tipo, monto, fecha/hora)
 - Permite consultar el historial de movimientos de la sesión
 
-### Menú principal (Modulo main.py)
+### Menú principal `main.py`
 - Centraliza el acceso a todas las operaciones disponibles
 - Permite cerrar sesión de forma controlada
 
