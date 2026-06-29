@@ -18,7 +18,6 @@ insuficiente, límite máximo y minimo de extracción por operación, y un regis
 ## Integrantes del grupo
 
 - Romero Marcos Ariel
-- Massa Nahuel
 - Centurion Juan Agustin
 - Arzuaga Nicolas
 
